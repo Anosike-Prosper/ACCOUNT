@@ -1,0 +1,23 @@
+{
+  "name": "project_structure",
+  "version": "1.0.0",
+  "description": "An express js nice file structure, that saves you the stress of setting up file structure for your project.",
+  "main": "config/server.js",
+  "scripts": {
+    "dev": "nodemon config/server.js"
+  },
+  "author": "Victoria",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0",
+    "joi": "^17.9.2",
+    "mongoose": "^6.10.0",
+    "validator": "^13.9.0",
+    "winston": "^3.8.2"
+  }
+}
